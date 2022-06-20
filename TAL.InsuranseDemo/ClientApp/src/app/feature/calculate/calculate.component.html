@@ -1,0 +1,88 @@
+
+<div class="container">
+  <h2 class="mb-8">Monthly Payment Calculator - Client side</h2>
+<br>
+  <form [formGroup]="angForm" (ngSubmit)="onCalculate()">
+    <div class="form-group row">
+      <div class="col-sm-8">
+      <div class="form-group row">
+        <div class="col-sm-4"> <label class="col-sm-2 col-form-label">:Name  </label></div>
+        <div class="col-sm-6">
+          
+      <input class="form-control" formControlName="name" placeholder="name">
+        
+        </div>
+      <div *ngIf="angForm.controls['name'].invalid" class="col-sm-2">
+          <div class="text-danger" *ngIf="angForm.controls['name'].errors.required"><i style="font-size: 18px"  class="bi bi-asterisk"></i> </div>
+      </div>
+     
+      </div>
+
+      <div class="form-group row">
+           <div class="col-sm-5">
+            
+              <input type="date"  class="form-control" formControlName="dob"  [max]="date" placeholder="dob"> 
+            
+       </div><div class="col-sm-1">or </div>
+        <div class="col-sm-4">
+        
+    <input class="form-control" type="number"  formControlName="age" (keypress)="onKeyPress($event,1)"  maxlength=3 max="100" placeholder="age">
+      
+      </div>
+      <div *ngIf="angForm.errors?.isValidAge ==false" class="col-sm-2">
+        <div class="text-danger" *ngIf="angForm.errors?.isValidAge ==false"><i style="font-size: 18px"  class="bi bi-asterisk"></i> </div>
+        
+    </div>
+      </div> 
+      <div class="form-group row  " *ngIf="angForm.errors?.isValidAge ==true">
+      <div class="col-sm-12 text-center text-danger" >
+         <p>provide age or dob </p> 
+         </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-sm-4"> <label class="col-sm-2 col-form-label">:Occupation  </label></div>
+        <div class="col-sm-6">
+       
+          <select class="form-control"  formControlName="occupation">>
+          <option *ngFor="let item of occupatiopn" [ngValue]="item.id">{{item.name}}</option>
+         
+        </select> 
+      
+      </div>
+      <div *ngIf="angForm.controls['occupation'].invalid" class="col-sm-2">
+        <div class="text-danger" *ngIf="angForm.controls['occupation'].errors.required"><i style="font-size: 18px"  class="bi bi-asterisk"></i> </div>
+    </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-4"> <label class="col-sm-2 col-form-label">:Insurance   </label></div>
+      <div class="col-sm-6">
+       
+   
+        <input class="form-control" type="number" formControlName="insuranceamt"   (keypress)="onKeyPress($event,8)"  placeholder="Insurance Amount">
+      </div>
+      <div *ngIf="angForm.controls['insuranceamt'].invalid"  class="col-sm-2" >
+        <div class="text-danger" *ngIf="angForm.controls['insuranceamt'].errors.required"><i style="font-size: 18px"  class="bi bi-asterisk"></i> </div>
+        <p *ngIf="angForm.controls['insuranceamt'].errors.pattern" class="text-danger">Number Only</p>
+       
+  
+    </div>
+     
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-6">
+
+        </div>
+        <div class="col-sm-4 text-right"> <button type="submit" [disabled]="angForm.invalid" class="btn btn-primary mb-2">Calculate</button></div>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <div class="col-sm-4">
+        <div>Monthly payment  is : <b>{{ result1 | number:'1.2-2' }}</b></div>
+      </div>
+    </div>
+</form>
+<!-- <p>Form value: {{ angForm.value | json }}</p>
+<p>Form status: {{ angForm.status | json }}</p>
+<p>Form status: {{ angForm.errors | json }}</p> -->
+</div>

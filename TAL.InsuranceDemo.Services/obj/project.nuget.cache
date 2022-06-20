@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rpHWf7Nji+59A/GyXaGtnQQgd7ID3bbTp5nxH5vxcVvgydcIq4n0sCQhOyGp864TQB669Cw8hT7AUwkTCY/32A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aravi\\source\\repos\\TAL.InsuranseDemo\\TAL.InsuranceDemo.Services\\TAL.InsuranceDemo.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aravi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\aravi\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\aravi\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

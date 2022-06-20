@@ -1,0 +1,13 @@
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\bin\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.deps.json
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\bin\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.dll
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\bin\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.pdb
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\bin\Debug\netcoreapp3.1\TAL.Insurance.Entities.dll
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\bin\Debug\netcoreapp3.1\TAL.Insurance.Entities.pdb
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.csproj.AssemblyReference.cache
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.AssemblyInfoInputs.cache
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.AssemblyInfo.cs
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.csproj.CoreCompileInputs.cache
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.csproj.CopyComplete
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.dll
+C:\Users\aravi\source\repos\TAL.InsuranseDemo\TAL.InsuranceDemo.Services\obj\Debug\netcoreapp3.1\TAL.InsuranceDemo.Services.pdb
